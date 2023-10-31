@@ -25,11 +25,3 @@ White: hsl(0, 0%, 100%)
   font-family: "League Spartan", sans-serif;
   font-size: 15px;
 }
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
