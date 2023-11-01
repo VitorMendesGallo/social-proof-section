@@ -25,3 +25,25 @@ White: hsl(0, 0%, 100%)
   font-family: "League Spartan", sans-serif;
   font-size: 15px;
 }
+
+div.container{
+  display:grid;
+  grid-template-columns: repeat(2,2fr);
+  grid-template-rows: repeat(2,2fr);
+  grid-template-areas: 
+  "introduction rating"
+  "feedback feedback"
+  ;
+}
+
+div.introduction{
+  grid-area: introduction;
+}
+
+div.rating{
+  grid-area: rating;
+}
+
+div.feedback{
+  grid-area: feedback;
+}
