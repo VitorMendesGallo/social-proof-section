@@ -37,8 +37,9 @@ main{
 div.container{
   max-width: 1200px;
   margin: 50px auto;
+  padding: 20px;
   display:grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 350px  1fr;
   grid-template-rows: repeat(2,2fr);
   grid-template-areas: 
   "introduction rating"
@@ -53,6 +54,12 @@ div.introduction{
 div.introduction h1 {
   font-size: 3em;
   color: hsl(300, 43%, 22%);
+  margin-bottom: 20px ;
+}
+
+div.introduction p {
+  color:hsl(303, 10%, 53%);
+  line-height: 1.4em;
 }
 
 div.rating{
