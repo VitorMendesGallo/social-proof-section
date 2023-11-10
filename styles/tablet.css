@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+main{
+  height: 100%;
+}
+
 div.container {
   min-width: 826px;
   grid-template-rows: 1fr 2fr;

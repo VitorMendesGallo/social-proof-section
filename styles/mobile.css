@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+main {
+  height: 100%;
+  display: block;
+  background-image: url("../images/bg-pattern-top-mobile.svg"),
+    url("../images/bg-pattern-bottom-mobile.svg");
+}
+
+div.container {
+  width: 100%;
+  min-width: auto;
+  max-width: 508px ;
+  margin: auto;
+  grid-template-columns: 1fr;
+  grid-template-rows:auto;
+  grid-template-areas:
+    "introduction"
+    "rating"
+    "feedback";
+}
+div.introduction-container {
+  width: 100%;
+}
+
+div.introduction h1 {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+div.introduction p {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 25px;
+}
+
+div.rating {
+  display: block;
+}
+
+div.rating ul {
+  display: block;
+}
+
+div.rating ul li {
+  display: block;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+div.rating ul li:nth-child(1) {
+  align-self: none;
+}
+
+div.rating ul li:nth-child(2) {
+  align-self: none;
+}
+
+div.rating ul li:nth-child(3) {
+  align-self: none;
+}
+
+div.rating ul li span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+div.feedback {
+  display: block;
+}
+
+div.feedback article {
+  width: 100%;
+  height: auto;
+}
+
+div.feedback article:nth-child(1) {
+  align-self: auto;
+}
+
+div.feedback article:nth-child(2) {
+  align-self: auto;
+}
+
+div.feedback article:nth-child(3) {
+  align-self: auto;
+  grid-column: auto;
+}
+
+div.feedback article + article {
+  margin-top: 15px;
+}
